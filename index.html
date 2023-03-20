@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction HTML, CSS, & Bootstrap</title>
+    <link rel="icon" href="images/favicon.png" type="image/x-icon"/>
+
+	<link rel="stylesheet" href="libraries/bootstrap/css/bootstrap2.min.css"  type="text/css">
+	<link rel="stylesheet" href="libraries/fontawesomeold/css/font-awesome.min.css" type="text/css">
+	
+	<link rel="stylesheet" href="css/login.css" type="text/css">
+	<link rel="stylesheet" href="css/plugins.css" type="text/css">
+    <style>
+		html { 
+            background: url("images/bg1.jpg") no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+	</style>
+</head>
+
+<body class="login pt-login">
+	<div class="row">
+		<div class="main-login col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
+			<div class="box-login">
+				<div class="logo py-z">
+					<a href="#">
+						<img width=auto height="70" src="images/logo_bareta.png">
+					</a>
+				</div>
+
+				<form class="form-login" action="" method="post">
+					<fieldset>
+						<legend style="font-weight: bold;">
+							CONTOH TAMPILAN LOGIN
+						</legend>
+						<p>
+							Silahkan masukkan username dan password untuk login<br />
+						</p>
+						
+						<div class="form-group">
+							<span class="input-icon">
+								<input type="text" name="username" placeholder="Username"  value=""
+								class="form-control">
+								<i class="fa fa-user"></i> 
+							</span>
+						</div>
+
+						<div class="form-group form-actions">
+							<span class="input-icon">
+								<input type="password" name="password" placeholder="Password"
+								class="form-control">
+								<i class="fa fa-lock"></i>
+							</span>
+						</div>
+						<div class="form-actions">
+							<div class="row">
+								<div class="col-lg-6">
+									<input type="hidden" name="level" value="2"/>
+									<button type="submit" class="button-3 btn-blue" name="login" style="width: 50%">Login</button>
+								</div>
+								<div class="col-lg-6">
+									<a href="#" class="button-3 btn-blue pull-right">Login Sebagai Tamu</a>
+								</div>
+							</div>
+						</div>
+					</fieldset>
+					<div class="copyright">
+							&copy;
+							<span class="text-bold text-uppercase"> Bareta</span> 
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
